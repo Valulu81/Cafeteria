@@ -161,14 +161,12 @@ aside{
     width: 100%;
     margin: auto;
     padding: 4rem;
-   font-size: 20px ;
+    font-size: 20px ;
 }
-
 .table-cursos tr{
     
     text-align: center;
 }
-
 .table-cursos td{
     padding: .5rem 0;
     border-bottom: solid 1px #70523c;
@@ -187,7 +185,6 @@ aside{
     font-weight: bold;
     
 }
-
 .table-cursos td:nth-child(1){
     width: 20%;
 }
