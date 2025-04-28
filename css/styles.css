@@ -7,7 +7,7 @@
 /**header**/
 header {
     display:block;
-    background-image: url("/03-reto/imagenes/banner.jpg");
+    background-image: url("/Cafeteria/imagenes/banner.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -66,13 +66,20 @@ a{
 }
 /**contenido**/
 p{
-    font-size: 30px;
+    font-size: 20px;
     text-align: justify;
     line-height: 1.5;
 }
 h2{
-    font-size: 40px;;
+    font-size: 40px;
 }
+
+.title-cursos{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 h3
 {
     font-size: 40px;
@@ -102,8 +109,6 @@ footer{
     clear: both;
 }
 img{
-    padding-bottom: 1rem;
-    padding-top: 1rem;
     width: 100%;
 }
 .content{
@@ -148,6 +153,41 @@ aside{
     
 }
 
+/*Tabla Cursos*/
+.table-cursos img{
+        width: 5rem;
+}
+.table-cursos{
+    width: 100%;
+    margin: auto;
+    padding: 4rem;
+   font-size: 20px ;
+}
 
+.table-cursos tr{
+    
+    text-align: center;
+}
 
+.table-cursos td{
+    padding: .5rem 0;
+    border-bottom: solid 1px #70523c;
+    text-align: center;
+    width: 10%;
+}
+.table-cursos td:nth-child(2){
+    text-align: justify;   ;
+    width:40%;
+    padding-left: 1rem;
+}
+.table-cursos tr:nth-child(1){
+    background-color: #70523c;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    
+}
 
+.table-cursos td:nth-child(1){
+    width: 20%;
+}
