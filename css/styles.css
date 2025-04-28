@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**header**/
+header {
+    display:block;
+    background-image: url("/03-reto/imagenes/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 520px;    
+    padding: 1rem;
+    text-align: center;
+}
+header p{
+    text-align: center;
+}
+nav {
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+}
+
+nav h2 {
+    text-align: left;
+    margin: 20px 20px;
+    padding: 1.5%;
+    color: white
+}
+ 
+nav ul {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0;
+    margin: 20px 0;
+    color: white;
+    
+}
+ 
+nav ul li {
+    margin: 0 20px;
+    font-size: 25px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.hero-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 8rem;
+
+}
+/**contenido**/
+p{
+    font-size: 30px;
+    text-align: justify;
+    line-height: 1.5;
+}
+h2{
+    font-size: 40px;;
+}
+h3
+{
+    font-size: 40px;
+}
+h1{
+    font-size: 40px;
+}
+button{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 4rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    align-items: center;
+    font-size: 100%;
+}
+aside button{
+    width: 100%;
+    height: 4rem;
+    
+}
+
+/**pie de pagina**/
+footer{
+    padding: 2rem;
+    clear: both;
+}
+img{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    width: 100%;
+}
+.content{
+    padding: 2rem;
+    
+}
+aside{
+    padding: 2rem;
+}
+/**RESPONSIVE**/
+@media(min-width: 800px){
+    .todo{
+        background-color: white;
+        max-width: 50%;
+        border-radius: 30px;
+        margin: 2rem auto;
+        padding: 2rem;
+    }
+    .content{
+        width: 70%;
+        float: left;
+        padding-left: 2rem;
+        
+        
+    }
+    aside{
+        
+        width: 30%;
+        float: left;
+        padding-left: 2rem;
+        
+    }   
+    aside button{
+        width: 80%;
+        height: 4rem;
+        
+    }
+    button{
+        width: 50%;
+    }
+    
+    
+}
+
+
+
+
