@@ -7,7 +7,7 @@
 /**header**/
 header {
     display:block;
-    background-image: url("/Cafeteria/imagenes/banner.jpg");
+    background-image: url("../imagenes/banner.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
